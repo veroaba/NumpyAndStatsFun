@@ -1,0 +1,16 @@
+[project]
+name = "NumpyAndStatsFun"
+version = "0.1.0"
+description = "Add a short description here"
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tasks]
+
+[dependencies]
+numpy = ">=1.26.4,<1.27"
+python = ">=3.12.3,<3.13"
+jupyter = ">=1.0.0,<1.1"
+scipy = ">=1.13.0,<1.14"
+pandas = ">=2.2.2,<2.3"
+matplotlib = ">=3.8.4,<3.9"
